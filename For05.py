@@ -13,6 +13,9 @@ def main(A,B):
     return list(r[f:0:-1])+[A]
 print(main(5,9))
 
+
+
+
    
 
 
