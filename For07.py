@@ -11,7 +11,7 @@ def main(N):
     b=0
    
     while a<N:
-         list=list+[a+1]
+         list=list+[a]
          if list[a]%2==1:
             x=list[a]
             b+=x
