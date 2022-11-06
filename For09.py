@@ -13,5 +13,5 @@ def main(price):
     while a<b :
         list=list+[a]
         a+=price
-    return list
+    return list+[b]
 print(main(2.25))
