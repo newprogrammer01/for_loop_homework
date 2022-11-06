@@ -6,4 +6,12 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    a=0
+    
+    list=[]
+    while  a<N:
+        list=list+[a+1]
+        a+=1
+    return list
+print(main(9))
+
