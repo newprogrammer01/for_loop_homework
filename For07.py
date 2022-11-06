@@ -6,4 +6,19 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    list=[]
+    a=0
+    b=0
+   
+    while a<N:
+         list=list+[a+1]
+         if list[a]%2==1:
+            x=list[a]
+            b+=x
+
+    
+         a+=1
+
+    return b
+print(main(12))
+
